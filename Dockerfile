@@ -14,3 +14,4 @@ RUN ulimit -n 65536
 RUN /usr/lib/fluent/ruby/bin/fluent-gem install fluent-plugin-s3
 RUN /usr/lib/fluent/ruby/bin/fluent-gem install fluent-plugin-ltsv-parser
 RUN /usr/lib/fluent/ruby/bin/fluent-gem install fluent-plugin-namedpipe
+RUN /usr/lib/fluent/ruby/bin/fluent-gem install fluent-plugin-multiprocess 
